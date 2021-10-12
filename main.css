@@ -23,6 +23,7 @@ a {
 .header {
     position: -webkit-sticky;  /* Safari */
     position: sticky;
+    z-index: 100;
     width: 100%;
     background: var(--primary-color);
     top: 0;
@@ -140,7 +141,7 @@ a {
     margin-bottom: 50px;
 }
 
-.tecnologias {
+.color-cuerpo {
     background-color: rgba(194, 72, 125, 0.25);
 }
 
@@ -182,7 +183,7 @@ a {
     width: 90%;
 }
 
-.porcentaje40 {
+.porcentaje35 {
     width: 40%;
 }
 
@@ -194,4 +195,14 @@ a {
     position: absolute;
     right: -14px;
     top: -32px;
+}
+
+.contenedor-idiomas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.texto-idiomas {
+    width: 30%;
 }
