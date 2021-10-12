@@ -143,3 +143,55 @@ a {
 .tecnologias {
     background-color: rgba(194, 72, 125, 0.25);
 }
+
+.idiomas {
+    margin-top: 30px;
+    width: 520px;
+}
+
+.columna {
+    float: left;
+    display: block;
+}
+
+.contenedor-barra {
+    margin: 10%;
+    background-color: #EFEFEF;
+    -webkit-border-radius: 30px;
+    height: 15px;
+    position: relative;
+}
+
+.titulo-barra {
+    color: #2D2D2D;
+    left: 15px;
+    position: absolute;
+    top: -24px;
+}
+
+.porcentaje {
+    background-color: var(--secondary-color);
+    -webkit-border-radius: 30px;
+    height: 15px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.porcentaje90 {
+    width: 90%;
+}
+
+.porcentaje40 {
+    width: 40%;
+}
+
+.porcentaje span {
+    background: #2D2D2D;
+    color: #FFF;
+    font-size: 11px;
+    padding: 4px;
+    position: absolute;
+    right: -14px;
+    top: -32px;
+}
