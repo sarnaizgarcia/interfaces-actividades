@@ -157,54 +157,54 @@
         <div class="cuerpo-seccion color-cuerpo">
             <h2 class="titulo-seccion">Habilidades</h2>
             <div>
-                <p>
-                    <span class="material-icons material-icons-outlined">
-                        radio_button_checked
-                    </span>
-                    <h4>Buena comunicación oral y escrita.</h4>
-                </p>
-                <p>
-                    <span class="material-icons material-icons-outlined">
-                        radio_button_checked
-                    </span>
-                    <h4>Capacidad de trabajo en equipo.</h4>
-                </p>
-                <p>
-                    <span class="material-icons material-icons-outlined">
-                        radio_button_checked
-                    </span>
-                    <h4>Actitud proactiva y positiva.</h4>
-                </p>
+                <div class="posicionamiento-habilidades card-section">
+                    <p>
+                        <span class="material-icons material-icons-outlined">
+                            chat_bubble_outline
+                        </span>
+                        <h4>Buena comunicación oral y escrita.</h4>
+                    </p>
+                </div>
+                <div class="posicionamiento-habilidades card-section">
+                    <p>
+                        <span class="material-icons material-icons-outlined">
+                            people
+                        </span>
+                        <h4>Capacidad de trabajo en equipo.</h4>
+                    </p>
+                </div>
+                <div class="posicionamiento-habilidades card-section">
+                    <p>
+                        <span class="material-icons material-icons-outlined">
+                            engineering
+                        </span>
+                        <h4>Actitud proactiva y positiva.</h4>
+                    </p>
+                </div>
             </div>
         </div>
     </section>
     <section id="contacto">
         <div class="cuerpo-seccion">
-            <h2 class="titulo-seccion">Información de contacto</h2>
-            <p>Puedes contactar conmigo por los siguientes medios:</p>
+            <h2 class="titulo-seccion">Contacto</h2>
             <div>
-                <span class="material-icons material-icons-outlined">
-                    email
-                </span>
-                sarnaizgarcia@gmail.com
-            </div>
-            <div>
-                <form action="">
-                    <div>
+                <form action="" method="post" class="formulario-contacto">
+                    <div class="caja-input">
                         <label for="nombre">Nombre *</label>
                         <input type="text" name="nombre" id="nombre">
                     </div>
-                    <div>
+                    <div class="caja-input">
                         <label for="telefono">Teléfono</label>
                         <input type="text" name="telefono" id="telefono">
                     </div>
-                    <div>
+                    <div class="caja-input">
                         <label for="email">Email *</label>
                         <input type="text" name="email" id="email">
                     </div>
-                    <div>
+                    <div class="caja-input">
                         <label for="comentario">Mensaje: </label>
-                        <input type="text" name="comentario" id="comentario">
+                        <textarea type="text" name="comentario" id="comentario">
+                        </textarea>
                     </div>
                     <input type="submit" value="Enviar">
                 </form>
@@ -213,12 +213,11 @@
     </section>
 </body>
 <footer>
-    <div>
-        <p>© 2020 <span>Silvia Arnáiz García</span> Todos los derechos reservados</p>
+    <div class="pie">
+        <p>© 2020 <span>Silvia Arnáiz García</span> - Todos los derechos reservados</p>
         <ul>
-            <li>Contacto</li>
-            <li>Github</li>
-            <li>CV</li>
+            <li class="elemento-pie"><a class="enlace-pie" href="mailto:sarnaizgarcia@gmail.com" target="_blank">Email de contacto</a></li>
+            <li class="elemento-pie"><a href="https://github.com/sarnaizgarcia" target="_blank">Github</a></li>
         </ul>
     </div>
 </footer>
