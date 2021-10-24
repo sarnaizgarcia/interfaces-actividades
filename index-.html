@@ -12,27 +12,33 @@
 </head>
 <body>
     <header class="header">
-        <div class="nav-block">
-            <nav class="nav">
-                <ul>
-                    <li class="nav-opcion"><a href="#presentacion">Presentación</a></li>
-                    <li class="nav-opcion"><a href="#formacion">Formación técnica</a></li>
-                    <li class="nav-opcion"><a href="#tecnologias">Tecnologías</a></li>
-                    <li class="nav-opcion"><a href="#idiomas">Idiomas</a></li>
-                    <li class="nav-opcion"><a href="#habilidades">Habilidades</a></li>
-                    <li class="nav-opcion"><a href="#contacto">Información de contacto</a></li>
-                </ul>
-            </nav>
+        <div class="nav-bloque">
+            <button type="button" class="material-icons material-icons-outlined btn-menu">menu</button>
+            <div class="menu main">
+                <div class="options">
+                    <span class="menu-option"><a href="#presentacion" class="menu-link simple-link" tabindex="0">Presentación</a></span>
+                    <span class="menu-option"><a href="#formacion" class="menu-link simple-link" tabindex="0">Formación técnica</a></span>
+                    <span class="submenu">
+                        <div class="menu suboptions">
+                            <span class="menu-option"><a class="menu-link simple-link" href="#tecnologias" tabindex="0">Tecnologías</a></span>
+                            <span class="menu-option"><a class="menu-link simple-link" href="#idiomas" tabindex="0">Idiomas</a></span>
+                            <span class="menu-option"><a class="menu-link simple-link" href="#habilidades" tabindex="0">Inteligencia emocional</a></span>
+                        </div>
+                        <div class="menu-option">
+                            <a class="menu-link suboption" tabindex="0"><span class="material-icons material-icons-outlined submenu-signal">chevron_right</span><span class="submenu-text">Habilidades</span></a>
+                        </div>
+                    </span>
+                    <span class="menu-option"><a href="#contacto" class="menu-link simple-link" tabindex="0">Información de contacto</a></span>
+                </div>
+            </div>
         </div>
     </header>
-    <section id="presentacion" class="section main">
-        <div class="cuerpo-seccion main">
+    <section id="presentacion" class="seccion principal">
+        <div class="cuerpo-seccion principal">
             <h2 class="titulo-principal">SILVIA ARNÁIZ GARCÍA - DESARROLLADORA WEB</h2>
             <div class="descripcion-presentacion">
                 <p>
-                    Mi nombre es Silvia Arnáiz García y soy Desarrollado
-
-                    y mi experiencia laboral previas se han desarrollado en el ámbito de la administración y la
+                    Mi nombre es Silvia Arnáiz García y soy Desarrolladoa, aunque mi formación y mi experiencia laboral previas se han desarrollado en el ámbito de la administración y la
                     contabilidad.
                 </p>
                 <p>
@@ -52,16 +58,16 @@
             <h2 class="titulo-seccion">Formación técnica</h2>
             <div class="grid-formacion">
                 <div class="item-formacion">
-                    <div class="titulo-formacion card-section">
+                    <div class="titulo-formacion tarjeta-seccion">
                         <p>Curso Programación desde cero con Python</p>
                     </div>
-                    <div class="lugar-fecha-formacion card-section">
+                    <div class="lugar-fecha-formacion tarjeta-seccion">
                         <p class="material-icons material-icons-outlined">
                             school
                         </p>
                         <p class="inner-text-card">Keepcoding</p>
                     </div>
-                    <div class="lugar-fecha-formacion card-section">
+                    <div class="lugar-fecha-formacion tarjeta-seccion">
                         <p class="material-icons material-icons-outlined">
                             calendar_today
                         </p>
@@ -69,16 +75,16 @@
                     </div>
                 </div>
                 <div class="item-formacion">
-                    <div class="titulo-formacion card-section">
+                    <div class="titulo-formacion tarjeta-seccion">
                         <p>Máster en Programación con Python</p>
                     </div>
-                    <div class="lugar-fecha-formacion card-section">
+                    <div class="lugar-fecha-formacion tarjeta-seccion">
                         <p class="material-icons material-icons-outlined">
                             school
                         </p>
                         <p class="inner-text-card">Fictizia</p>
                     </div>
-                    <div class="lugar-fecha-formacion card-section">
+                    <div class="lugar-fecha-formacion tarjeta-seccion">
                         <p class="material-icons material-icons-outlined">
                             calendar_today
                         </p>
@@ -86,16 +92,16 @@
                     </div>
                 </div>
                 <div class="item-formacion">
-                    <div class="titulo-formacion card-section">
+                    <div class="titulo-formacion tarjeta-seccion">
                         <p>Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web</p>
                     </div>
-                    <div class="lugar-fecha-formacion card-section">
+                    <div class="lugar-fecha-formacion tarjeta-seccion">
                         <p class="material-icons material-icons-outlined">
                             school
                         </p>
                         <p class="inner-text-card">Edix</p>
                     </div>
-                    <div class="lugar-fecha-formacion card-section">
+                    <div class="lugar-fecha-formacion tarjeta-seccion">
                         <p class="material-icons material-icons-outlined">
                             calendar_today
                         </p>
@@ -157,7 +163,7 @@
         <div class="cuerpo-seccion color-cuerpo">
             <h2 class="titulo-seccion">Habilidades</h2>
             <div>
-                <div class="posicionamiento-habilidades card-section">
+                <div class="posicionamiento-habilidades tarjeta-seccion">
                     <p>
                         <span class="material-icons material-icons-outlined">
                             chat_bubble_outline
@@ -165,7 +171,7 @@
                         <h4>Buena comunicación oral y escrita.</h4>
                     </p>
                 </div>
-                <div class="posicionamiento-habilidades card-section">
+                <div class="posicionamiento-habilidades tarjeta-seccion">
                     <p>
                         <span class="material-icons material-icons-outlined">
                             people
@@ -173,7 +179,7 @@
                         <h4>Capacidad de trabajo en equipo.</h4>
                     </p>
                 </div>
-                <div class="posicionamiento-habilidades card-section">
+                <div class="posicionamiento-habilidades tarjeta-seccion">
                     <p>
                         <span class="material-icons material-icons-outlined">
                             engineering
@@ -190,27 +196,88 @@
             <div>
                 <form action="" method="post" class="formulario-contacto">
                     <div class="caja-input">
-                        <label for="nombre">Nombre *</label>
-                        <input type="text" name="nombre" id="nombre">
+                        <label for="nombre" class="input-label" >Nombre *</label>
+                        <input type="text" name="nombre" id="nombre" class="input-field line-input">
                     </div>
                     <div class="caja-input">
-                        <label for="telefono">Teléfono</label>
-                        <input type="text" name="telefono" id="telefono">
+                        <label for="telefono" class="input-label">Teléfono</label>
+                        <input type="text" name="telefono" id="telefono" class="input-field line-input">
                     </div>
                     <div class="caja-input">
-                        <label for="email">Email *</label>
-                        <input type="text" name="email" id="email">
+                        <label for="email" class="input-label">Email *</label>
+                        <input type="text" name="email" id="email" class="input-field line-input">
                     </div>
                     <div class="caja-input">
-                        <label for="comentario">Mensaje: </label>
-                        <textarea type="text" name="comentario" id="comentario">
+                        <label for="comentario" class="input-label">Mensaje: </label>
+                        <textarea type="text" name="comentario" id="comentario" class="input-field area-input">
                         </textarea>
                     </div>
-                    <input type="submit" value="Enviar">
+                    <div class="botonera">
+                        <input type="reset" value="Cancelar" class="btn secundario">
+                        <input type="submit" value="Enviar" class="btn primario">
+                    </div>
                 </form>
             </div>
         </div>
     </section>
+    <script>
+        function closeMenus() {
+            const menus = document.querySelectorAll('.menu');
+            const subMenuSignal = document.querySelector('.submenu-signal');
+            menus.forEach((menu) => {
+                if (menu.classList.contains('active')) {
+                    menu.classList.remove('active');
+                }
+            });
+
+            if (subMenuSignal.classList.contains('active')) {
+                subMenuSignal.classList.remove('active');
+            }
+        }
+
+        function clickOnDocument (event) {
+            const stopLoop = (node) => !((node.classList.contains('nav-bloque') || node.tagName === 'BODY'));
+
+            let element = event.target;
+
+            while(stopLoop(element)) {
+                element = element.parentElement;
+            }
+
+            if (element.tagName === 'BODY') {
+                closeMenus();
+            }
+        }
+
+        function openMenu(element) {
+            if (element.classList.contains('active')) {
+                element.classList.remove('active');
+            } else  {
+                element.classList.add('active');
+            }
+        }
+
+        function openMainMenu() {
+            openMenu(document.querySelector('.menu.main'));
+        }
+
+        function openSubMenu() {
+            openMenu(document.querySelector('.submenu-signal'));
+            openMenu(document.querySelector('.menu.suboptions'));
+        }
+
+
+        document.addEventListener('click', clickOnDocument);
+        document.querySelector('.btn-menu').addEventListener('click', openMainMenu);
+        document.querySelector('.menu-link.suboption').addEventListener('click', (event) => {
+            event.preventDefault();
+            openSubMenu();
+        });
+
+        document.querySelectorAll('.simple-link').forEach((simpleLink) => {
+            simpleLink.addEventListener('click', closeMenus);
+        });
+    </script>
 </body>
 <footer>
     <div class="pie">
